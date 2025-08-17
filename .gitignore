@@ -137,3 +137,17 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Python virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution/build folders
+build/
+dist/
